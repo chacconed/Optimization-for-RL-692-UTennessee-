@@ -123,18 +123,9 @@ compiles on first use. Because of Numba, E3's wall-clock times are not comparabl
 notebooks.
 
 ### 3. Quantum bonus (QEC decoding)
-1. Download `google_qec3v5_experiment_data.zip` (315 MB, CC-BY 4.0) from
-   [Zenodo record 6804040](https://zenodo.org/records/6804040) or use the one provided in this repository.
-2. Extract the one experiment folder we use:
-   ```bash
-   unzip -l google_qec3v5_experiment_data.zip | grep bZ_d3_r01_center_3_5   # find its path in the zip
-   mkdir smallest_google_qec3v5_experiment_data
-   unzip google_qec3v5_experiment_data.zip '<path>/surface_code_bZ_d3_r01_center_3_5/*' \
-         -d smallest_google_qec3v5_experiment_data
-   ```
-3. Put `smallest_google_qec3v5_experiment_data/` next to the notebook (already added to this repository). The notebook also searches
-   parent folders and finds the experiment folder at any depth inside it.
-4. Run `qec_enhancement1_spmd_e1.ipynb` top to bottom. It takes about 2–3 minutes and ~0.5 GB of
+1. We have used `google_qec3v5_experiment_data.zip` (315 MB, CC-BY 4.0) from
+   [Zenodo record 6804040](https://zenodo.org/records/6804040) as provided in this repository.
+4. Run `qec_enhancement1_spmd_e1.ipynb` with the dataset file on the same root folder. It takes about 2–3 minutes and ~0.5 GB of
    memory. Outputs go to `qec_enhancement1_B50_K400000_outputs/`.
 
 To decode a different patch or basis, change `EXPERIMENT` in the settings cell (for example,
