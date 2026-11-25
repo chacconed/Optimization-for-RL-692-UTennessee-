@@ -1,0 +1,10 @@
+,fold A (test odd),fold B (test even),"all 50,000",± s.e.,errors
+No decoding,0.0832,0.0868,0.085,0.0012471968569556292,4250
+Google: PyMatching (circuit DEM),0.01576,0.017,0.01638,0.0005676565088149699,819
+Google: correlated matching (circuit DEM),0.01576,0.017,0.01638,0.0005676565088149699,819
+"Google: belief matching (pij, same split)",0.01572,0.01712,0.01642,0.0005683376390843739,821
+"Google: tensor network (pij, same split)",0.0156,0.01716,0.01638,0.0005676565088149699,819
+"Exact VI, gamma=1 (pij) = min-weight",0.01572,0.01712,0.01642,0.0005683376390843739,821
+"Exact VI, gamma=0.9 (pij) = RL target",0.01572,0.01712,0.01642,0.0005683376390843739,821
+Exact MLD (pij),0.0156,0.01716,0.01638,0.0005676565088149699,819
+"Expected TD-PMD (SPMD + E1), final policy",0.01572,0.01712,0.01642,0.0005683376390843739,821
