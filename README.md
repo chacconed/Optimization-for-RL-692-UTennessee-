@@ -3,7 +3,7 @@ Repository for the course project: Optimization for RL (IE692)
 # Policy Mirror Descent for Simplified Blackjack, GridWorld, and Quantum Error Correction
 
 **IE 692: Optimization for Reinforcement Learning, University of Tennessee, Knoxville (Fall 2026)**
-Team: Chac, Jishnu Mahmud, Raiyan Basher, Raisa Mashtura
+Team: Jishnu Mahmud, Raiyan Basher, Raisa Mashtura
 
 This repository holds our course project. We study stochastic policy mirror descent (SPMD) with an
 on-policy Monte Carlo critic on two small MDPs, a simplified Blackjack game and a GridWorld, and test
