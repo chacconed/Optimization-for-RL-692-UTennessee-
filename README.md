@@ -124,7 +124,7 @@ notebooks.
 
 ### 3. Quantum bonus (QEC decoding)
 1. Download `google_qec3v5_experiment_data.zip` (315 MB, CC-BY 4.0) from
-   [Zenodo record 6804040](https://zenodo.org/records/6804040).
+   [Zenodo record 6804040](https://zenodo.org/records/6804040) or use the one provided in this repository.
 2. Extract the one experiment folder we use:
    ```bash
    unzip -l google_qec3v5_experiment_data.zip | grep bZ_d3_r01_center_3_5   # find its path in the zip
@@ -132,7 +132,7 @@ notebooks.
    unzip google_qec3v5_experiment_data.zip '<path>/surface_code_bZ_d3_r01_center_3_5/*' \
          -d smallest_google_qec3v5_experiment_data
    ```
-3. Put `smallest_google_qec3v5_experiment_data/` next to the notebook. The notebook also searches
+3. Put `smallest_google_qec3v5_experiment_data/` next to the notebook (already added to this repository). The notebook also searches
    parent folders and finds the experiment folder at any depth inside it.
 4. Run `qec_enhancement1_spmd_e1.ipynb` top to bottom. It takes about 2–3 minutes and ~0.5 GB of
    memory. Outputs go to `qec_enhancement1_B50_K400000_outputs/`.
